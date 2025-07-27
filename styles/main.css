@@ -1,0 +1,75 @@
+@import 'variables.css';
+@import 'fonts.css';
+@import 'modules/header.css';
+@import 'modules/banner.css';
+@import 'modules/companies.css';
+@import 'modules/form.css';
+@import 'modules/footer.css';
+@import 'modules/slider.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  font-size: 20px;
+  line-height: 1.9;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+
+  @media (max-width: 1200px) {
+    font-size: 16px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+  font-family: var(--font-heading);
+  text-wrap: balance;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  margin-block: 100px;
+
+  @media (max-width: 1200px) {
+    margin-block: 20px;
+    gap: 40px;
+  }
+}
+
+.container {
+  max-width: 1520px;
+  margin: 0 auto;
+  padding-inline: 40px;
+
+  @media (max-width: 1200px) {
+    padding-inline: 20px;
+  }
+}

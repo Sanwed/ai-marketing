@@ -1,0 +1,17 @@
+:root {
+  /* Colors */
+  --bg-main: #000000;
+  --text-main: #FFFFFF;
+  --text-highlight: #0075FF;
+  --gradient: linear-gradient(267.03deg, #00F0FF 4.01%, #5200FF 57.55%, #FF2DF7 114.97%);
+  --search-input: #272F43;
+
+  /* Fonts */
+  --font-main: 'Montserrat', Arial, sans-serif;
+  --font-heading: 'Al Nile', Arial, sans-serif;
+}
+
+.light {
+  --bg-main: #FFFFFF;
+  --text-main: #171717;
+}

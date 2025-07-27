@@ -1,0 +1,26 @@
+footer .container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 40px;
+
+  @media (max-width: 1200px) {
+    flex-direction: column;
+  }
+}
+
+footer .container::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: var(--gradient);
+}
+
+footer p {
+  margin: 0;
+}
